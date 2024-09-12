@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: 'Josefin Sans', 'Jost', 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+#introduction,
+#applications,
+#benefits,
+#future,
+#conclusion {
+    padding: 9%;
+}
+
+img {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #26262676;
+    border: 3px solid #3f3f3f76;
+}
+
+.img img {
+    display: block;
+    margin: 0 auto;
+}
+
+header,
+main {
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #4040403c;
+    border: 3px solid #26262676;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pad {
+    padding: 6%;
+    padding-top: 3%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: #eaeaea;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #ba52d180;
+    border-radius: 10px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 6%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #4040403c;
+    border: 3px solid #26262676;
+    border-radius: 30px;
+    padding: 3%;
+    color: #ffffff4a;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(197, 197, 197);
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #4040403c;
+    border: 3px solid #26262676;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.color {
+    color: rgb(255, 160, 176);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
